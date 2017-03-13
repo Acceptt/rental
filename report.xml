@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<Reports>
+<!--
+///////////////////////////////////////////////////////
+//
+// VSReport Report Definition File
+//
+// This file contains the following reports:
+//
+//   1) pinjaman
+//
+///////////////////////////////////////////////////////
+-->
+
+  <!-- Report *** pinjaman *** -->
+  <Report>
+    <Name>pinjaman</Name>
+    <Layout>
+      <Width>14895</Width>
+      <Orientation>1</Orientation>
+    </Layout>
+    <Font>
+      <Name>MS PGothic</Name>
+      <Size>9</Size>
+    </Font>
+    <Groups>
+    </Groups>
+    <Sections>
+      <Section>
+        <Name>Detail</Name>
+        <Height>360</Height>
+      </Section>
+      <Section>
+        <Name>Header</Name>
+        <Type>1</Type>
+        <Height>1845</Height>
+      </Section>
+      <Section>
+        <Name>Footer</Name>
+        <Type>2</Type>
+        <Visible>0</Visible>
+      </Section>
+      <Section>
+        <Name>Page Header</Name>
+        <Type>3</Type>
+        <Height>450</Height>
+      </Section>
+      <Section>
+        <Name>Page Footer</Name>
+        <Type>4</Type>
+        <Height>2550</Height>
+      </Section>
+    </Sections>
+    <Fields>
+      <Field>
+        <Name>Line7</Name>
+        <Section>0</Section>
+        <Width>8655</Width>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line6</Name>
+        <Section>0</Section>
+        <Height>360</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line3</Name>
+        <Section>0</Section>
+        <Height>360</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line1</Name>
+        <Section>0</Section>
+        <Left>1440</Left>
+        <Height>360</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line4</Name>
+        <Section>0</Section>
+        <Left>4320</Left>
+        <Height>360</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line2</Name>
+        <Section>0</Section>
+        <Left>8640</Left>
+        <Height>360</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Label3</Name>
+        <Section>0</Section>
+        <Text>kode</Text>
+        <Calculated>-1</Calculated>
+        <Top>75</Top>
+        <Width>810</Width>
+        <Height>210</Height>
+      </Field>
+      <Field>
+        <Name>Label5</Name>
+        <Section>0</Section>
+        <Text>alamat</Text>
+        <Calculated>-1</Calculated>
+        <Left>4725</Left>
+        <Top>75</Top>
+        <Width>990</Width>
+        <Height>210</Height>
+      </Field>
+      <Field>
+        <Name>Label4</Name>
+        <Section>0</Section>
+        <Text>nama</Text>
+        <Calculated>-1</Calculated>
+        <Left>1755</Left>
+        <Top>90</Top>
+        <Width>1080</Width>
+        <Height>195</Height>
+      </Field>
+      <Field>
+        <Name>Line</Name>
+        <Section>0</Section>
+        <Top>360</Top>
+        <Width>8655</Width>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>DivLine</Name>
+        <Section>1</Section>
+        <Top>30</Top>
+        <Width>9360</Width>
+        <BackStyle>1</BackStyle>
+        <BackColor>0</BackColor>
+      </Field>
+      <Field>
+        <Name>TitleLbl</Name>
+        <Section>1</Section>
+        <Text>Wisma Rias Zakiya AD-AF</Text>
+        <Top>120</Top>
+        <Width>9285</Width>
+        <Height>525</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>20.25</Size>
+          <Bold>-1</Bold>
+        </Font>
+      </Field>
+      <Field>
+        <Name>Line8</Name>
+        <Section>3</Section>
+        <Width>8640</Width>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line10</Name>
+        <Section>3</Section>
+        <Height>450</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line11</Name>
+        <Section>3</Section>
+        <Left>1440</Left>
+        <Height>450</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line12</Name>
+        <Section>3</Section>
+        <Left>4320</Left>
+        <Height>450</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Line9</Name>
+        <Section>3</Section>
+        <Left>8640</Left>
+        <Height>450</Height>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Label</Name>
+        <Section>3</Section>
+        <Text>NAMA</Text>
+        <Left>2595</Left>
+        <Top>75</Top>
+        <Width>915</Width>
+        <Height>300</Height>
+        <Font>
+          <Name>Tahoma</Name>
+          <Size>9.75</Size>
+          <Bold>-1</Bold>
+        </Font>
+      </Field>
+      <Field>
+        <Name>Label2</Name>
+        <Section>3</Section>
+        <Text>ALAMAT</Text>
+        <Left>6030</Left>
+        <Top>90</Top>
+        <Width>1185</Width>
+        <Height>285</Height>
+        <BackColor>12632256</BackColor>
+        <Font>
+          <Name>Tahoma</Name>
+          <Bold>-1</Bold>
+        </Font>
+      </Field>
+      <Field>
+        <Name>Line5</Name>
+        <Section>3</Section>
+        <Left>15</Left>
+        <Top>450</Top>
+        <Width>8640</Width>
+        <BorderStyle>1</BorderStyle>
+        <LineSlant>2</LineSlant>
+      </Field>
+      <Field>
+        <Name>Label1</Name>
+        <Section>3</Section>
+        <Text>NIK</Text>
+        <Left>570</Left>
+        <Top>105</Top>
+        <Width>915</Width>
+        <Height>270</Height>
+        <Font>
+          <Name>Tahoma</Name>
+          <Size>9.75</Size>
+          <Bold>-1</Bold>
+        </Font>
+        <ZOrder>1</ZOrder>
+      </Field>
+      <Field>
+        <Name>TitleLbl1</Name>
+        <Section>1</Section>
+        <Text>Sumber Gayam - Kepung - Kediri</Text>
+        <Top>510</Top>
+        <Width>9360</Width>
+        <Height>300</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>12</Size>
+          <Bold>-1</Bold>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl2</Name>
+        <Section>1</Section>
+        <Text>Tlp: 0812 - 3314 - 7916 / 0856 -5141- 9613</Text>
+        <Top>840</Top>
+        <Width>9435</Width>
+        <Height>225</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+          <Bold>-1</Bold>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl3</Name>
+        <Section>1</Section>
+        <Text>Melayani :</Text>
+        <Top>1110</Top>
+        <Width>1560</Width>
+        <Height>300</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Vivaldi</Name>
+          <Size>12</Size>
+          <Italic>-1</Italic>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl4</Name>
+        <Section>1</Section>
+        <Text>Rias Pengantin - Make Up Wisuda - Decorasi- Terop - Sound System - DLL</Text>
+        <Left>1170</Left>
+        <Top>1365</Top>
+        <Width>7035</Width>
+        <Height>255</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>11.25</Size>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl5</Name>
+        <Section>4</Section>
+        <Text>Terimakasih Atas Kepercayaan Anda</Text>
+        <Width>2250</Width>
+        <Height>2085</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Vivaldi</Name>
+          <Size>20.25</Size>
+          <Italic>-1</Italic>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl6</Name>
+        <Section>4</Section>
+        <Text>1.Uang muka ( DP ) minimal 20% sebagai tanda jadi order</Text>
+        <Left>2085</Left>
+        <Top>30</Top>
+        <Width>4815</Width>
+        <Height>300</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl7</Name>
+        <Section>4</Section>
+        <Text>2.	Jika sewa barang atau order dibatalkan  tanpa alasan yang  jelas dari pihak penyewa maka uang muka tidak bisa kembali</Text>
+        <Left>2235</Left>
+        <Top>300</Top>
+        <Width>5955</Width>
+        <Height>525</Height>
+        <Align>0</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl8</Name>
+        <Section>4</Section>
+        <Text>3.	Barang rusak atau hilang tanggung jawab penyewa dan diganti sesuai ketentuan kesepakatan </Text>
+        <Left>2235</Left>
+        <Top>765</Top>
+        <Width>6000</Width>
+        <Height>525</Height>
+        <Align>0</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl9</Name>
+        <Section>4</Section>
+        <Text>4.	Pemesanan tidak dapat dirubah ( kecuali ada perjanjian )</Text>
+        <Left>2175</Left>
+        <Top>1230</Top>
+        <Width>4755</Width>
+        <Height>300</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl10</Name>
+        <Section>4</Section>
+        <Text>5.	Pemesanan tenda minimal 1 set atau 2 plong</Text>
+        <Left>2130</Left>
+        <Top>1485</Top>
+        <Width>3855</Width>
+        <Height>300</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl11</Name>
+        <Section>4</Section>
+        <Text>6.	Pengiriman jarak jauh tambah transportasi</Text>
+        <Left>2115</Left>
+        <Top>1755</Top>
+        <Width>3705</Width>
+        <Height>300</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+        </Font>
+      </Field>
+      <Field>
+        <Name>TitleLbl12</Name>
+        <Section>4</Section>
+        <Text>7.	Pembayaran dapat dilakukan tunai dan tranfer ke rekening  </Text>
+        <Left>2100</Left>
+        <Top>2055</Top>
+        <Width>5055</Width>
+        <Height>300</Height>
+        <Align>1</Align>
+        <Font>
+          <Name>Times New Roman</Name>
+          <Size>9.75</Size>
+        </Font>
+      </Field>
+    </Fields>
+  </Report>
+</Reports>
