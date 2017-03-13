@@ -103,7 +103,7 @@ Frame1.Visible = True
 Frame2.Visible = False
 Frame3.Visible = False
 End Sub
-
+'gggg
 Private Sub Command2_Click()
 Frame1.Visible = False
 Frame2.Visible = True
